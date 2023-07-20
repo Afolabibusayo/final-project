@@ -1,0 +1,405 @@
+/* wrapper section starts */
+.wrapper{
+    /* background-color: whitesmoke; */
+}
+
+/* wrapper section ends */
+/* navigation section starts */
+
+.navigation{
+    padding: 2rem;
+    /* background-color: bisque; */
+}
+.navigation .img{
+    margin-left: 1.5rem;
+}
+.navigation .brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navigation .list{
+    margin-left: 6rem;
+}
+.navigation .list .home{
+    color: blue;
+    margin: 1rem;
+    font-weight:600 ;
+}
+.navigation .list .cta{
+    margin: 1rem;
+    font-weight: 600;
+}
+.navigation .ment{
+    padding: 1rem 1.8rem;
+    margin-right: 8rem;
+    background-color: #0FE3AF;;
+    border-color: white;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+/* navigation section endts */
+/* intro section starts */
+
+.intro{
+    background-image: url(../Images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 109rem;
+    margin: auto;
+}
+.intro .lady .img-fluid{
+    width: 9500.5205078125px;
+    height: 500.1237182617188px;
+    /* top: -36.94921875px; */
+    /* left: 502.443359375px; */
+}
+.intro .text{
+    padding: 3rem;
+}
+.intro .text .med{
+    background-color: #0FE3AF;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: 0 2.3rem;
+    font-weight:600;
+    width: 310px;
+}
+.intro .text .make{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 57.25px;
+    color: #143450;
+    text-transform: capitalize;
+}
+.intro .text .train{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height:27.72px;
+    color: #1C1C1C;
+}
+.intro .text .start{
+    background-color: #0152A8;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    color: white;
+    border-color: #0152A8; 
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.intro .lady .lad{
+    object-fit: cover;
+}
+.services{
+    display: grid;
+    gap: 15px;
+}
+
+/* intro section ends */
+/* feel section starts */ 
+
+.feel{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.feel .service{
+    text-align: center;
+}
+.feel .service .serv{
+    border: .5px solid #cecece;
+    padding: 3px 18px;
+    margin: 0%;
+    gap: 10px;
+    max-width: fit-content;
+    margin: auto;
+    letter-spacing: 5px;
+
+}
+.feel .service .best{
+    font-size: 2rem;
+    text-transform: capitalize;
+    line-height: 45px;
+    font-weight: 700;
+}
+.feel .plast .angi{
+    font-weight: 700;
+}
+.feel .plast{
+    background-color:whitesmoke;
+    /* border: 1px solid burlywood; */
+}
+.feel .plast .read{
+    background-color: white;
+    margin-bottom: 2rem;
+    border-style: none;
+    font-weight: 500;
+}
+.feel .plast .photo{
+    background-size: cover;
+    width: 100%;
+}
+
+/* feel section ends */ 
+/* about section starts */ 
+
+
+.about{
+    background-image: url(../Images/girl-call.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 109rem;
+    margin: auto;
+   padding: 6rem;
+   margin-top: 6rem;
+}
+.about .cta{
+    padding: 3rem;
+}
+.about .cta .abt{
+    font-weight: 100;
+    padding: 0%;
+    border: none;
+    text-transform: uppercase;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.about .cta .heart{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 45px;
+}
+.about .cta .value{
+    font-size: 1rem;
+}
+.about .cta .icon{
+    border: 1px solid blue;
+    border-radius: 950px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.about .cta .mes .hrs{
+    max-width: 100px;
+    /* background-color: #0152A8; */
+}
+.about .cta .button{
+    background-color: #0152A8;
+    padding:017px 35px;
+    margin-top: 2rem;
+    color: white;
+    border-color: #0152A8;
+}
+.about .text{
+    /* background-color: aquamarine; */
+}
+.about .text .multi{
+    margin-bottom: 0%;
+    padding-left: 10px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.about .text .treat{
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+
+/* about section ends */ 
+/* clients section starts */
+
+.client{
+    color: #0152A8;
+    padding: 3rem;
+   
+}
+.client .list{
+    list-style-type: none;
+}
+.client .list .lis{
+    display: inline;
+    margin: 2rem;
+   
+}
+.client .list .anc{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+.client .list .pills{
+    padding: .2rem;
+}
+
+/* clients section ends */
+/* appointment section starts */
+
+.appointment{
+    background-image: url(../Images/blue-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 75rem;
+    margin: auto;
+}
+.appointment .imp{
+    padding: 5rem;
+    text-align: center;
+}
+.appointment .imp .today{
+    color:white;
+    font-size: 4rem;
+    line-height: 60px;
+}
+.appointment .imp .book{
+    background-color: #0FE3AF;
+    padding: 1rem 1.5rem;
+    border-color: #0FE3AF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* appointment section ends */
+/* specialist section starts */
+
+.specialist{
+    padding: 7rem;
+}
+.specialist .text .spec{
+  border: .5px solid #cecece;
+  padding: 3px 22px;
+  gap: 10px;
+  text-transform: uppercase;
+  max-width: fit-content;
+  letter-spacing: 5px;
+}
+.specialist .text .pro{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 50px;
+}
+.specialist .text .dyna{
+    color: #0152A8;
+}
+.specialist .text .coll{
+    font-size: 1.1rem;
+}
+.specialist .text .list{
+    list-style-type: none;
+    padding: 0%;
+}
+.specialist .text .list .yrs{
+    padding: 20px 0;
+}
+.specialist .text .dis{
+    background-color: #0152A8;
+    padding: 17px 41px;
+    color: white;
+    border-color: #0152A8;
+    margin-top: 20px;
+}
+
+/* specialist section ends */
+/* feedback section starts */
+
+.feedback{
+    padding: 5rem;
+}
+.feedback .head .feed{
+    border: .5px solid #cecece;
+    padding: 3px 22px;
+    gap: 10px;
+    text-transform: uppercase;
+    max-width: fit-content;
+    letter-spacing: 5px;
+    margin: auto;
+    font-weight: 400;
+}
+.feedback .head .back{
+    font-size: 30px;
+    text-align: center;
+    /* margin: auto; */
+    font-weight: 600;
+    line-height: 39px;
+    margin-top: 20px;
+}
+.feedback .text .rob{
+    max-width: min-content;
+    /* background-color:#F1F1F1; */
+    padding: 10px;
+}
+.feedback .text .card-text{
+    border-top: .5px solid #cecece;
+    padding: 1rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.feedback .text .star{
+    background-color: #F1F1F1;
+}
+.feedback .text .png{
+    float:left;
+}
+.feedback .text{
+    padding: .5rem;
+    gap: 20px;
+}
+.feedback .edu{
+    background-color: #F1F1F1;
+}
+.feedback .edu .waw{
+    padding: 1rem 0 1rem 1rem;
+    margin-bottom: 0%;
+}
+.feedback .waw .tre .bert{
+    margin-bottom: 0%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.feedback .waw .tre{
+    padding: .8rem .8rem .8rem 0;
+    margin-left: 0%;
+}
+
+/* feedback section ends */
+/* why section starts */
+
+.why{
+    background-color: #cecece;
+    text-align: center;
+}
+.why .cho{
+    border: .5px solid #cecece;
+    padding: 3px 22px;
+    font-weight: 500;
+}
+.why .com{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+.why .list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.why .list .clot{
+    width: 16rem;
+}
+.why .list .clot .tick{
+    border: 2px solid blue;
+    border-radius: 95px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    display: inline;
+}
+
+
+
+
